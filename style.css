@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+:root {
+    --mFont: "Montserrat", sans-serif;
+    --bgColor : #fffde8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fffde8;
+    font-family: var(--mFont);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255 253 232 / 95%) url(img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    /* background-color: rgb(255 253 232 / 95%); */
+}
+
+.main {
+    background-color: rgb(255 253 232 / 50%);
+    background: var(--bgColor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #8a4d20;
+    /* padding: 15px 18px; */
+    box-shadow: 0px 0px 10px #8a4d20;
+}
+
+.h-m {
+    text-transform: uppercase;
+    font-size: 40px;
+    border-bottom: 2px solid;
+    padding: 3px 28px;
+    /* margin-bottom: 8px; */
+    margin-top: 5px;
+}
+
+.input-m {
+    pointer-events: none;
+    height: 53vh;
+    width: 42vw;
+
+    background: #fffbcb;
+    border: 2px solid #8a4d20;
+    padding: 4px 6px;
+    font-size: 16px;
+}
+
+.main li {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-top: 2px solid #8a4d20;
+    padding: 11px 0px;
+    margin-top: 15px;
+    background: var(--bgColor);
+}
+
+.input-d {
+    display: flex;
+    padding: 9px 15px;
+    padding-bottom: 0px;
+}
+
+.m-notes-btn {
+    background: none;
+    cursor: pointer;
+    border: 2px solid #8a4d20;
+    font-size: 20px;
+    padding: 2px 14px;
+    margin: 0px 5px;
+    width: 3.6rem;
+    height: 2.4rem;
+    /* margin-top: 15px; */
+    transition: 0.2s all;
+}
+
+.m-notes-btn:hover {
+    background-color: #8a4d20;
+    color: #fffde8;
+}
+
+.i-h {
+    margin: 18px 20px;
+}
+
+.input-h {
+    border: 2px solid #8a4d20;
+    border-bottom: none;
+    font-size: 23px;
+    text-transform: uppercase;
+    background: var(--bgColor);
+}
+
+.m-notes {}
+
+.btn {
+    background: none;
+    font-size: 23px;
+    padding: 3px 7px;
+    border: 2px solid #8a4d20;
+    cursor: pointer;
+    transition:0.2s all;
+    background: var(--bgColor);
+    margin: 0px 8px;
+    width: 143px;
+}
+
+.btn:hover{
+    background:#8a4d20;
+    color: #fffde8;
+}
+
+.btns{
+    display: flex;
+}
