@@ -1,16 +1,6 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Musical Notes Gear</title>
-    
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="resp.css">
-</head>
-<body>
-    <div class="main">
+if(window.matchMedia("(max-width: 425px)").matches){
+    mainBody.innerHTML = `
         <p class="h-m">
             musical notes gear
         </p>
@@ -48,9 +38,6 @@
             <ul class="m-notes"><button class="m-notes-btn">N2</button></ul>
             <ul class="m-notes"><button class="m-notes-btn">N3</button></ul>
         </li>
-        
-    </div>
-</body>
-<script src="script.js"></script>
-<script src="resp.js"></script>
-</html>
+    `;
+}
+

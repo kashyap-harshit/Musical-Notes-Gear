@@ -1,0 +1,53 @@
+@media only screen and (max-width : 1024px){
+
+    .m-notes-btn{
+        padding: 2px 5px;
+        width: 2.6rem;
+        height: 2rem;
+    }
+    .input-m{
+        max-height: 48vh;
+    }
+}
+
+@media only screen and (max-width : 769px){ 
+
+    .m-notes-btn{
+        padding: 2px 3px;
+        width: 1.8rem;
+        height: 1.7rem;
+        font-size: 14px;
+    }
+    .input-m{
+        max-height: 40vh;
+    }
+}
+
+@media only screen and (max-width : 768px){
+
+    .m-notes-btn{
+        width: 2.2rem;
+        height: 1.9rem;
+        font-size: 16px;
+    }
+    .input-m{
+        max-height: 32vh;
+    }
+}
+
+@media only screen and (max-width : 425px){
+    .main li{
+        border:none;
+    }
+    .input-d{
+        display: block;
+    }
+
+    .input-m{
+        width: 43vh;
+    }
+    .h-m{
+        font-size: 27px;
+        padding: 3px 9px;
+    }
+}
