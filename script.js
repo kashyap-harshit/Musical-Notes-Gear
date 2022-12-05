@@ -5,7 +5,7 @@ let f_t = 0;
 let f_t_2 = 0;
 let clear = document.querySelector(".clear");
 let convert = document.querySelector(".convert");
-let mainBody = document.querySelector(".main");
+
 
 
 

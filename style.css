@@ -54,7 +54,7 @@ body {
     font-size: 16px;
 }
 
-.main li {
+.main ul {
     list-style: none;
     display: flex;
     width: 100%;
@@ -101,7 +101,9 @@ body {
     background: var(--bgColor);
 }
 
-.m-notes {}
+.m-notes {
+    list-style: none;
+}
 
 .btn {
     background: none;
@@ -122,4 +124,13 @@ body {
 
 .btns{
     display: flex;
+}
+
+.l-items{
+    border: 2px solid #8a4d20;
+    border-left: none;
+    border-right: none;
+    width: -webkit-fill-available;
+    margin: 16px 6px 23px;
+
 }

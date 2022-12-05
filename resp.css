@@ -36,11 +36,13 @@
 }
 
 @media only screen and (max-width : 425px){
-    .main li{
+    .main ul{
         border:none;
+        margin-top: 0px ;
     }
     .input-d{
         display: block;
+        padding: 0px;
     }
 
     .input-m{
@@ -50,4 +52,35 @@
         font-size: 27px;
         padding: 3px 9px;
     }
+    .btn{
+        font-size: 22px;
+        width: 131px;
+    }
+    body{
+        align-items: unset;
+    }
+    .main{
+        margin-top: 24px;
+        height: fit-content;
+        margin-bottom: 24px;
+    }
+    .i-h{
+        margin-top: 29px;
+    }
+}
+
+@media only screen and (max-width : 375px){
+    
+    .input-m {
+        max-height: 25vh;
+        width: 41vh;
+    }
+    .i-h {
+        margin: 18px 16px;
+    }
+    .h-m {
+        margin: 16px 0px;
+        margin-bottom: 5px;
+    }
+
 }
