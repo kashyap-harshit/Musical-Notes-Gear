@@ -34,8 +34,15 @@
         max-height: 32vh;
     }
 }
+@media only screen and (max-width : 540px){
+    .input-m {
+        width: 47vh;
+        max-height: 31vh;
+    }
+}
 
-@media only screen and (max-width : 425px){
+
+@media only screen and (max-width : 425px), (max-width : 540px){
     .main ul{
         border:none;
         margin-top: 0px ;
@@ -46,7 +53,8 @@
     }
 
     .input-m{
-        width: 43vh;
+        width: 37vh;
+        max-height: 26vh;
     }
     .h-m{
         font-size: 27px;
@@ -68,6 +76,8 @@
         margin-top: 29px;
     }
 }
+
+
 
 @media only screen and (max-width : 375px){
     

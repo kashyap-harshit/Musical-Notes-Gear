@@ -1,7 +1,16 @@
 let mainBody = document.querySelector(".main");
+let head = document.getElementsByTagName("head");
 
 
-if(window.matchMedia("(max-width: 425px)").matches){
+if(window.matchMedia("(max-width: 280px)").matches){
+    head.innerHTML = `
+        <title>Musical Notes Gear</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="resp.css">
+    `;
+}
+
+if(window.matchMedia("(max-width: 540px)").matches){
     mainBody.innerHTML = `
         <p class="h-m">
             musical notes gear
