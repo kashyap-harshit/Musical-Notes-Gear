@@ -27,7 +27,7 @@ convert.addEventListener("click", ()=>{
 
         }
         if(e=="G1"){
-            f_t_f("D");
+            f_t_f("D#");
 
         }
         if(e=="R3"){
@@ -35,7 +35,7 @@ convert.addEventListener("click", ()=>{
 
         }
         if(e=="G2"){
-            f_t_f("D#");
+            f_t_f("E");
 
         }
         if(e=="G3"){
@@ -63,7 +63,7 @@ convert.addEventListener("click", ()=>{
 
         }
         if(e=="N1"){
-            f_t_f("A");
+            f_t_f("A#");
 
         }
         if(e=="D3"){
@@ -71,7 +71,7 @@ convert.addEventListener("click", ()=>{
 
         }
         if(e=="N2"){
-            f_t_f("A#");
+            f_t_f("B");
 
         }
         if(e=="N3"){
@@ -112,9 +112,7 @@ if(window.matchMedia("(max-width: 540px)").matches){
                 <li class="m-notes"><button class="m-notes-btn">R1</button></li>
                 <li class="m-notes"><button class="m-notes-btn">R2</button></li>
                 <li class="m-notes"><button class="m-notes-btn">G1</button></li>
-                <li class="m-notes"><button class="m-notes-btn">R3</button></li>
                 <li class="m-notes"><button class="m-notes-btn">G2</button></li>
-                <li class="m-notes"><button class="m-notes-btn">G3</button></li>
                 <li class="m-notes"><button class="m-notes-btn">M1</button></li>
             </ul>
             <ul>
@@ -123,9 +121,7 @@ if(window.matchMedia("(max-width: 540px)").matches){
                 <li class="m-notes"><button class="m-notes-btn">D1</button></li>
                 <li class="m-notes"><button class="m-notes-btn">D2</button></li>
                 <li class="m-notes"><button class="m-notes-btn">N1</button></li>
-                <li class="m-notes"><button class="m-notes-btn">D3</button></li>
                 <li class="m-notes"><button class="m-notes-btn">N2</button></li>
-                <li class="m-notes"><button class="m-notes-btn">N3</button></li>
             </ul>
         </div>
         <div class="btns">
